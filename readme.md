@@ -32,16 +32,22 @@ The Negotiation System API allows users to interact with an AI agent to negotiat
 
     ```bash
     git clone https://github.com/dhyanjoshy/NegotiateAi.git
-    cd negotiation-api
     ```
 
-2. **Install the Dependencies:**
+2. **Create an environment:**
+
+    ```bash
+    py -m venv env
+    env\Scripts\activate
+    ```
+
+3. **Install the Dependencies:**
 
     ```bash
     pip install -r requirements.txt
     ```
 
-3. **Run the Application:**
+4. **Run the Application:**
 
     ```bash
     python app.py
